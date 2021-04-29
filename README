@@ -1,0 +1,20 @@
+group menmber: Derrick Wright  dwright@iastate.edu
+               Hamza Shahid    hmshahid@iastate.edu
+               Sonyta Ung      ung@iastate.edu
+---------------------------------------------------------------------------
+Interface:
+---------------------------------------------------------------------------
+Added Spells menu, hit '+' to open it, if you do not have it you have to go pick the book up the symbol is '?' if it is too hard to find just set d->PC->book = true in PC.h
+---------------------------------------------------------------------------
+When accessing spell screens to increase health, teleport ect. 
+Keys are marked as:
+ex: press 1 increase health
+ex: press 2 spawn a weapon in your **CARRY** not inventory
+1-a-increase health
+2-b-weapon spawn
+3-c-teleport
+4-d-spawn armor
+---------------------------------------------------------------------------
+- create new terrain type such as water(W), lava(L), earthquack(E), then generate inside the rooms randomely, count, then write to file, compute new space needed. Then read from file, generate dungeon.
+- when Pc in these new terain type, then generate new dungeon. If npc in these new terrain, they will die.
+- change the color of the room floor and corridor every move 
